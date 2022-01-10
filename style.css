@@ -1,0 +1,246 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+body {
+	margin: 0px;
+	font-family: 'Noto Sans Japanese', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	transition: all 0.5s 0s ease;
+}
+
+a:hover {
+	opacity: 0.6;
+}
+
+p {
+	margin: 0;
+}
+
+h3 {
+	display: inline;
+	font-size: 50px;
+	color: #ff9a3e;
+	background: -webkit-linear-gradient(0deg, #ff9a3e, #ff7268);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.title {
+	font-weight: bold;
+	font-size: 50px;
+}
+
+.font-middle {
+	font-size: 20px;
+}
+
+.button {
+	color: white;
+	border-radius: 15px;
+	display: inline;
+	padding: 5px 30px;
+	margin: 15px auto;
+	transition: all 0.5s 0s ease;
+}
+
+.btn-grd {
+	background: -webkit-linear-gradient(0deg, #ff9a3e, #ff7268);
+}
+
+.btn-wht {
+	background-color: white;
+	color: #ff9a3e;
+}
+
+.button:hover {
+	cursor: pointer;
+	opacity: 0.4;
+}
+
+.slider {
+	width: 700px !important;
+	margin: 20px auto !important;
+}
+
+.slick-next:before {
+	color: black !important;
+	content: '＞' !important;
+}
+
+.slick-prev:before {
+	color: black !important;
+	content: '＜' !important;
+}
+
+.works_img {
+	width: 170px;
+}
+
+#head {
+	background-color: #212a36;
+	padding: 4px 30px;
+	color: white;
+	position: relative;
+}
+
+#head ul {
+	display: flex;
+	justify-content: flex-end;
+	list-style: none;
+}
+
+#head ul li {
+	margin-right: 30px
+}
+
+#header_logo {
+	position: absolute;
+	width: 135px;
+}
+
+#header_img {
+	width: 100%;
+}
+
+#section_works {
+	text-align: center;
+	padding: 15px 20px 40px;
+}
+
+.slider {
+	width: 600px;
+	margin: 60px auto;
+}
+
+#section_price {
+	padding: 80px;
+	background: -webkit-linear-gradient(0deg, #ff7268, #ff9a3e);
+	color: white;
+}
+
+#price_contents {
+	width: 750px;
+	margin: 0 auto;
+}
+
+#price_img {
+	float: right;
+	width: 400px;
+}
+
+#section_about {
+	padding: 30px;
+}
+
+#profile_img {
+	width: 400px;
+}
+
+#about_contents {
+	width: 750px;
+	margin: 0 auto;
+}
+
+#about_right {
+	float: right;
+	text-align: right;
+	position: relative;
+}
+
+#about_profile {
+	position: absolute;
+	background-color: #212a36;
+	color: white;
+	text-align: left;
+	line-height: 1.7em;
+	padding: 10px 15px;
+	border-radius: 6px;
+	left: -210px;
+	top: 160px;
+}
+
+#section_contact {
+	text-align: center;
+	padding: 40px;
+	background: -webkit-linear-gradient(0deg, #ff7268, #ff9a3e);
+	color: white;
+}
+
+input, textarea {
+	background: rgba(255, 255, 255, 0.2);
+	width: 300px;
+	border: 0px;
+	padding: 6px 12px;
+	border-radius: 6px;
+	outline: none;
+	color: white;
+}
+
+input[type="submit"] {
+	width: auto;
+	background-color: #2e71f2;
+	border-radius: 15px;
+	padding: 5px 30px;
+	margin: 15px auto;
+	transition: all 0.5s 0s ease;
+}
+
+input[type="submit"]:hover {
+	cursor: pointer;
+	opacity: 0.6;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+	color: white;
+	font-weight: bold;
+}
+
+input:-moz-placeholder, textarea:-moz-placeholder {
+	color: white;
+	font-weight: bold;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+	color: white;
+	font-weight: bold;
+}
+
+input:-ms-input-placeholder {
+	color: white;
+	font-weight: bold;
+}
+
+.wpcf7-not-valid-tip {
+	display: block;
+}
+
+#wpcf7-f15-o1-ve-your-name, #wpcf7-f15-o1-ve-your-email, #wpcf7-f15-o1-ve-your-message {
+	display: none;
+}
+
+#footer_menu {
+	position: relative;
+	padding: 12px;
+	color: black;
+	text-align: center;
+}
+
+.footer_logo {
+	left: 0;
+	top: 0;
+	width: 160px !important;
+}
+
+#footer_menu a {
+	color: black
+}
+
+#footer {
+	background-color: #212a36;
+	color: gray;
+	text-align: center;
+	padding: 8px;
+	font-size: 12px;
+}
