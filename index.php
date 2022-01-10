@@ -7,11 +7,11 @@
     <title>FF Design(ふふデザイン)</title>
     <meta name="description" content="" />
     <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/slick/slick.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/slick/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
-    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/slick/slick.min.js"></script>
-    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/slick/slick.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 </head>
 
 <body>
@@ -30,6 +30,7 @@
 
     <div id="section_works">
         <h3>WORKS</h3>
+        <br>制作実績
         <ul class="slider">
             <li><img src="<?php echo get_template_directory_uri(); ?>/images/works_01.png" class="works_img"></li>
             <li><img src="<?php echo get_template_directory_uri(); ?>/images/works_02.png" class="works_img"></li>
